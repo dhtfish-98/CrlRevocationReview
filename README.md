@@ -1,5 +1,7 @@
 # CrlRevocationReview
 
+New implementation author: **dhtfish98**. Package version: **0.1.2**.
+
 Direct-issuer full CRL signature and freshness verification for one pinned issuer and one explicitly supplied target certificate.
 
 This is an independently implemented, complete selected offline input profile. It is not an equivalent rewrite of the entire upstream platform. Cryptographic primitives use cryptography; no upstream application is called.

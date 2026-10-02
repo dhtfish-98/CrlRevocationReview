@@ -1,5 +1,7 @@
 # Origin and implementation scope
 
+The new independent implementation is authored by **dhtfish98** (package version **0.1.2**). Upstream works retain their original attribution and license notices in this document and `UPSTREAM_LICENSE`.
+
 CrlRevocationReview independently implements this selected scope: Direct-issuer full CRL signature and freshness verification for one pinned issuer and one explicitly supplied target certificate.
 
 The research source is [wbond/certvalidator](https://github.com/wbond/certvalidator) at fixed commit `dff539af0919b6eb9cecf7d9a5180bf1826c8770`. Source archive SHA-256: `861d84a9c7113d54090f876a312c3d69829a65462b259e638c06257a82f07d1a`. Its license is MIT; the exact source license notice is retained as `UPSTREAM_LICENSE`. The new application code and documentation are licensed under MIT (`LICENSE`). The upstream application is neither imported nor executed by the production package. No upstream application source is bundled in the production package.
