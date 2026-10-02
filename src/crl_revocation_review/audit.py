@@ -23,7 +23,7 @@ def audit(d):
     need(len(crl)<=4096,"CRL entry limit");serials=set();revoked=None
     for entry in crl:
         need(entry.serial_number not in serials,"duplicate revoked serial");serials.add(entry.serial_number)
-        need(entry.revocation_date_utc<=now,"future revocation entry unsupported")
+        need(entry.revocation_date_utc<=crl.last_update_utc,"CRL revocation time exceeds CRL issuance time")
         for ext in entry.extensions:
             need(isinstance(ext.value,(x509.CRLReason,x509.InvalidityDate)),"indirect or unknown revocation entry extension unsupported")
             if isinstance(ext.value,x509.InvalidityDate):need(ext.value.invalidity_date_utc<=now,"future invalidity date unsupported")

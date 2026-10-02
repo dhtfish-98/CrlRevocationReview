@@ -26,3 +26,7 @@ Primary references: [libsodium point arithmetic](https://libsodium.gitbook.io/do
 ## Defensive use and application evidence
 
 Inputs must belong to the authorized reviewer. Runtime performs no fetch, sample execution, private-key processing, key export, signing, remote modification or outbound communication. CVP organizational eligibility, evidence of a legitimate blocked task, application review and program acceptance remain OPEN. These local results alone do not establish them.
+
+## Re-audited supported semantics
+
+As a strict profile consistency requirement, every revocationDate must be at or before the CRL thisUpdate issuance time. Contradictory evidence is FAIL with complete=false, even if its signature validates. A consistent authenticated revoked target remains FAIL with complete=true. This follows the issuance and revocation time meanings in [RFC 5280 sections 5.1.2.4 and 5.1.2.6](https://www.rfc-editor.org/rfc/rfc5280.html#section-5.1.2.4); it does not extend the scope to full PKIX validation.
