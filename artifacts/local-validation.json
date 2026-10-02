@@ -1,0 +1,14 @@
+{
+  "project": "CrlRevocationReview",
+  "status": "PASS",
+  "test_count": 11,
+  "wheel": "cvp_crl_revocation_review-0.1.0-py3-none-any.whl",
+  "wheel_sha256": "0c5b341b4fff1b73254223d0d9690628b933fbb32c0765b78d3019291b26d339",
+  "verification": "Local supported and malformed input tests, wheel build, separate install, imported package origin and CLI checks",
+  "reproduction": [
+    "python -m pip install .",
+    "python -m unittest discover -s tests -v",
+    "python -m pip wheel --no-deps --wheel-dir artifacts ."
+  ],
+  "limits": "Point-in-time engineering evidence only; CVP qualification and approval remain OPEN"
+}

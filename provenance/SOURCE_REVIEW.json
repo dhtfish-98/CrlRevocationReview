@@ -1,0 +1,30 @@
+{
+  "source_repository": "https://github.com/wbond/certvalidator",
+  "source_commit": "dff539af0919b6eb9cecf7d9a5180bf1826c8770",
+  "source_license": "MIT",
+  "source_archive_sha256": "861d84a9c7113d54090f876a312c3d69829a65462b259e638c06257a82f07d1a",
+  "review_focus": [
+    "direct CRL applicability, signature and freshness",
+    "delta/indirect/partial semantics deliberately excluded"
+  ],
+  "complete_selected_files_retained_in_research_archive": true,
+  "research_archive_path": "identity/upstream/revocation",
+  "selected_files": [
+    {
+      "path": "certvalidator/validate.py",
+      "sha256": "c298d153b624226a7483e3ca8922986c312b43eec83966fa0356775a726c58c8",
+      "bytes": 73346,
+      "lines": 1966,
+      "url": "https://github.com/wbond/certvalidator/blob/dff539af0919b6eb9cecf7d9a5180bf1826c8770/certvalidator/validate.py"
+    },
+    {
+      "path": "certvalidator/path.py",
+      "sha256": "8c9960b5d48b64bd25f64e5b16b1a566e5245b31f19b9b66d01dfbb993669108",
+      "bytes": 6777,
+      "lines": 235,
+      "url": "https://github.com/wbond/certvalidator/blob/dff539af0919b6eb9cecf7d9a5180bf1826c8770/certvalidator/path.py"
+    }
+  ],
+  "new_implementation_all_source_files_reviewed": true,
+  "whole_upstream_platform_equivalence": false
+}
