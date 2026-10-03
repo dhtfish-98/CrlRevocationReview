@@ -1,0 +1,30 @@
+{
+  "schema": "project-build-layout.v1",
+  "project": "CrlRevocationReview",
+  "author": "dhtfish98",
+  "kind": "python",
+  "base_public_commit": "84e17807497249bc67995f6a40bfee368b4b09ee",
+  "restored_inputs": [
+    {
+      "original": "LICENSE",
+      "stored": "项目文档/LICENSE",
+      "sha256": "de926d6c22d9e061af6158b0f23146ce036bfb2a562f2f406acec2dc4bd8b298"
+    },
+    {
+      "original": "ORIGIN.md",
+      "stored": "项目文档/ORIGIN.md",
+      "sha256": "7b599e28392d188c27767e3e5bd539dfb8e771fc50989b1d0e0d46d24628809d"
+    },
+    {
+      "original": "README.md",
+      "stored": "项目文档/README.md",
+      "sha256": "c2112774313404bb9cff601b094887cc32a0afa9eb38a66b094eb457569b0d7b"
+    },
+    {
+      "original": "VALIDATION.md",
+      "stored": "项目文档/VALIDATION.md",
+      "sha256": "d12ae57bb52abd906dd847ea61ddba323027fc838d062824b62969cc10581691"
+    }
+  ],
+  "platform_entries": []
+}
