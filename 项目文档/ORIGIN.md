@@ -1,6 +1,6 @@
 # Origin and implementation scope
 
-The new independent implementation is authored by **dhtfish98** (package version **0.1.2**). Upstream works retain their original attribution and license notices in this document and `UPSTREAM_LICENSE`.
+The new independent implementation is authored by **dhtfish98** (package version **0.1.3**). Upstream works retain their original attribution and license notices in this document and `UPSTREAM_LICENSE`.
 
 CrlRevocationReview independently implements this selected scope: Direct-issuer full CRL signature and freshness verification for one pinned issuer and one explicitly supplied target certificate.
 

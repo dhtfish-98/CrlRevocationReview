@@ -2,7 +2,7 @@
 
 # CrlRevocationReview
 
-New implementation author: **dhtfish98**. Package version: **0.1.2**.
+New implementation author: **dhtfish98**. Package version: **0.1.3**.
 
 Direct-issuer full CRL signature and freshness verification for one pinned issuer and one explicitly supplied target certificate.
 
